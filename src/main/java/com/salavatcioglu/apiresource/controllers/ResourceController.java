@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ResourceController {
 
-    @GetMapping("/message")
+    @GetMapping("/messages")
     public String getMessage() {
         return "Hello world!";
     }

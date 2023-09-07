@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application.name: api-resource
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://api-auth:8082
